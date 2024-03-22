@@ -1,26 +1,26 @@
-# stub-repo &middot; [![Test workflow status](https://github.com/ChrisCodesThings/stub-repo/actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml) [![NPM Version](https://img.shields.io/npm/v/@chriscodesthings/stub-repo)](https://www.npmjs.com/package/@chriscodesthings/stub-repo) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# is-number &middot; [![Test workflow status](https://github.com/ChrisCodesThings/is-number/actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml) [![NPM Version](https://img.shields.io/npm/v/@chriscodesthings/is-number)](https://www.npmjs.com/package/@chriscodesthings/is-number) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-> **Function to determine if something is a string type**
+> **Function to determine if something is a number type**
 
 ## Install
 
 ```sh
-npm install --save @chriscodesthings/stub-repo
+npm install --save @chriscodesthings/is-number
 ```
 
 ## Use
 
 ```js
-import stubRepo from '@chriscodesthings/stub-repo';
+import isNumber from '@chriscodesthings/is-number';
 
-console.log(stubRepo("hello world!"));
+console.log(isNumber(123));
 // => true
 ```
 
 ## Syntax
 
 ```js
-stubRepo(var);
+isNumber(var);
 ```
 
 ### Parameters
@@ -29,7 +29,7 @@ stubRepo(var);
 
 ### Return Value
 
-Returns something probably.
+Returns boolean `true` if *var* is a number type, `false` otherwise.
 
 ## Description
 

@@ -1,15 +1,16 @@
 {
-  "name": "@chriscodesthings/stub-repo",
+  "name": "@chriscodesthings/is-number",
   "version": "0.1.0",
-  "description": "npm package template",
+  "description": "Function to determine if something is a number type",
   "keywords": [
-    "stub",
-    "package",
-    "template"
+    "is",
+    "variable",
+    "number",
+    "type"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisCodesThings/stub-repo.git"
+    "url": "git+https://github.com/ChrisCodesThings/is-number.git"
   },
   "main": "index.js",
   "type": "module",
@@ -23,7 +24,7 @@
     "node": ">=18.0.0"
   },
   "bugs": {
-    "url": "https://github.com/ChrisCodesThings/stub-repo/issues"
+    "url": "https://github.com/ChrisCodesThings/is-number/issues"
   },
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
